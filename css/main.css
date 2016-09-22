@@ -1,0 +1,209 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+textarea::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+textarea::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+textarea:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+textarea:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+textarea:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+body input:focus:required:invalid, body textarea:focus:required:invalid {}
+body input:required:valid, body textarea:required:valid{}
+
+body{font-family: "RobotoRegular", sans-serif; font-size: 16px; line-height: 1.1;}
+
+a{
+	-webkit-transition: all ease-in .2s;
+	-o-transition: all ease-in .2s;
+	transition: all ease-in .2s;
+}
+
+.text-left{text-align: left;}
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+
+.input-wrap{position: relative;}
+
+#success{display: none;}
+
+
+
+
+
+
+body{
+	min-height: 656px;
+	background: url(../images/fon.png) 50% 0 no-repeat ;
+	background-size:  100%;
+
+}
+.top{
+	font-family: "Georgia";
+	font-size: 14px;
+	color: #cccccc;
+	margin-top: 535px;
+	margin-bottom: 55px;
+}
+.topimg{
+	margin-left: 105px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+.topimg1{
+	margin-bottom: 50px;
+}
+.one{
+	min-height: 180px;
+	background: #fff;
+}
+.one h1{
+	font-family: "Times New Roman";
+	font-size: 36px;
+	color: #303030;
+	margin-top: 75px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.one p{
+	font-family: "Georgia";
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+}
+.two{
+	min-height: 520px;
+	background: #fff;
+}
+.bubble{
+	width: 220px;
+	height: 220px;
+	background-color: #eeeeee;
+	border-radius: 200px;
+	margin-top: 65px;
+	margin-bottom: 55px;
+}
+.first{
+	position: relative;
+	left: 70px;
+	top: 45px;
+}
+.double{
+	position: relative;
+	left: 50px;
+	top: 45px;
+}
+.third{
+	position: relative;
+	left: 50px;
+	top: 45px;
+}
+.two h1{
+	font-family: "Georgia";
+	font-weight: bold;
+	font-size: 30px;
+	color: #333333;
+}
+.two p{
+	font-family: "Georgia";
+	font-size: 18px;
+	color: #333333;
+}
+.four{
+	min-height: 200px;
+}
+.four h1{
+	font-family: "Times New Roman";
+	font-size: 36px;
+	color: #333333;
+	text-transform: uppercase;
+	margin-top: 105px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.four p{
+	font-family: "Georgia";
+	font-size: 18px;
+	color: #333333;
+    text-align: center;
+}
+#email{
+	width: 580px;
+	height: 55px;
+	text-indent: 20px;
+	margin-top: 55px;
+	margin-bottom: 20px;
+}
+#comment{
+	width: 580px;
+	height: 190px;
+	text-indent: 20px;
+	padding-top: 20px;
+	resize: none;
+}
+.button{
+	display: inline-block;
+	height: 60px;
+	font-size: 24px;
+	font-family: "Georgia";
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	background: #09b2c9;
+	padding: 0 265px;
+	margin-top: 20px;
+	margin-bottom: 110px;
+}
+.button:hover{
+	background: #f03d39;
+}
+footer{
+	min-height: 180px;
+	background-color: #333333;
+}
+footer h2{
+	font-family: "Times New Roman";
+	font-size: 14px;
+	color: #cccccc;
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+footer p{
+	font-family: "Times New Roman";
+	font-size: 12px;
+	color: #cccccc;
+}
+footer img{
+	position: relative;
+	left:85%;
+	bottom: 40px;
+}
+.centr{
+	margin-left: 15px;
+	margin-right: 15px;
+}
